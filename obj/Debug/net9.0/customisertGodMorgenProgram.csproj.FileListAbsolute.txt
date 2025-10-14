@@ -1,0 +1,14 @@
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\bin\Debug\net9.0\customisertGodMorgenProgram.exe
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\bin\Debug\net9.0\customisertGodMorgenProgram.deps.json
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\bin\Debug\net9.0\customisertGodMorgenProgram.runtimeconfig.json
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\bin\Debug\net9.0\customisertGodMorgenProgram.dll
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\bin\Debug\net9.0\customisertGodMorgenProgram.pdb
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.AssemblyInfoInputs.cache
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.AssemblyInfo.cs
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.csproj.CoreCompileInputs.cache
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.dll
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\refint\customisertGodMorgenProgram.dll
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.pdb
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.genruntimeconfig.cache
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\ref\customisertGodMorgenProgram.dll
