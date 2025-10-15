@@ -33,13 +33,24 @@ class Program
         }
 
 
-            Console.WriteLine("Hello, what is your name?");
+        Console.WriteLine("Hello, what is your name?");
 
-        String navn = Console.ReadLine();
+        string navn = Console.ReadLine();
 
-        String message = $"{greeting}, {navn}! Today is " + currentTime.ToLongDateString() + " and the time is " + currentTime.ToLongTimeString();
-       
+        string message = $"{greeting}, {navn}! Today is " + currentTime.ToLongDateString() + " and the time is " + currentTime.ToLongTimeString();
+
         Console.WriteLine(message);
+
+        Console.WriteLine("Would you like to know how many days are left until Halloween?");
+        string spookTober = Console.ReadLine();
+        if (spookTober == "yes");
+        {
+            DateTime Halloween = new DateTime(currentTime.Year, 10, 31);
+            if (Halloween < currentTime)
+                Halloween = Halloween.AddYears(1);
+            int daysLeft = (Halloween - currentTime.Date).Days;
+            Console.WriteLine($"Its {daysLeft} until the spookies time of year *skullemoji*");
+        }
     
     }
 }
