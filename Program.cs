@@ -8,29 +8,29 @@ class Program
     {
         DateTime currentTime = DateTime.Now;
         int time = currentTime.Hour;
-        
-        string greeting;
-        
-            if (currentTime.Hour > 5 && currentTime.Hour < 12)
-            {
-                greeting = "Good Morning!";
-            }
-            else if (currentTime.Hour < 12 && currentTime.Hour > 15)
-            {
-                greeting = "Good afternoon!";
-            }
-            else if (currentTime.Hour > 15 && currentTime.Hour < 20)
-            {
-                greeting = "Good evening!";
-            }
-            else if (currentTime.Hour > 20 && currentTime.Hour < 5)
-            {
-                 greeting = "Why are you up?";
-            }
-            else
-            {
-                greeting = "Homie aint checking the time before printing the message?";
-            }
+
+        string greeting = "";
+
+        if (currentTime.Hour > 5 && currentTime.Hour < 12)
+        {
+            greeting = "Good Morning!";
+        }
+        else if (currentTime.Hour > 12 && currentTime.Hour < 15)
+        {
+            greeting = "Good afternoon!";
+        }
+        else if (currentTime.Hour > 15 && currentTime.Hour < 20)
+        {
+            greeting = "Good evening!";
+        }
+        else if (currentTime.Hour > 20 && currentTime.Hour < 5)
+        {
+            greeting = "Sleepytime!";
+        }
+        else
+        {
+            greeting = "hell is going on here?!";
+        }
 
 
             Console.WriteLine("Hello, what is your name?");
