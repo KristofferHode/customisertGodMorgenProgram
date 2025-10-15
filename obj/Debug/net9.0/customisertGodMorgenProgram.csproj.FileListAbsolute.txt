@@ -12,3 +12,4 @@ C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgen
 C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.pdb
 C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.genruntimeconfig.cache
 C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\ref\customisertGodMorgenProgram.dll
+C:\Users\Kristoffer\Documents\Kodehode\Backend_Undervisning\customisertGodMorgenProgram\obj\Debug\net9.0\customisertGodMorgenProgram.sourcelink.json
