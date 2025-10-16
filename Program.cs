@@ -7,29 +7,29 @@ class Program
     static void Main(string[] args)
     {
         DateTime currentTime = DateTime.Now;
-        string greeting = "";
+        string greeting = "";//initializes greeting to be used outside of 'if/else if' scope
 
-        if (currentTime.Hour > 5 && currentTime.Hour < 12)
+//wont work at the hours between 12:00-13:00, checking into it now 
+        if (currentTime.Hour >= 5 && currentTime.Hour <= 12)
         {
-             greeting = "Good Morning!";
+            greeting = "Good Morning!";
         }
-        else if (currentTime.Hour > 12 && currentTime.Hour < 15)
+
+        if (currentTime.Hour >= 12 && currentTime.Hour <= 15)
         {
             greeting = "Good afternoon!";
         }
-        else if (currentTime.Hour > 15 && currentTime.Hour < 20)
+
+        if (currentTime.Hour >= 15 && currentTime.Hour <= 20)
         {
             greeting = "Good evening!";
         }
-        else if (currentTime.Hour > 20 && currentTime.Hour < 5)
+        
+        if (currentTime.Hour >= 20 && currentTime.Hour <= 5)
         {
             greeting = "Sleepytime!";
         }
-        else
-        {
-            greeting = "hell is going on here?!";
-        }
-
+        
 
         Console.WriteLine("Hello, what is your name?");
 
