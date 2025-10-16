@@ -35,7 +35,7 @@ class Program
 
         string navn = Console.ReadLine()!;
 
-        string message = $"{greeting}, {navn}! Today is " + currentTime.ToLongDateString() + " and the time is " + currentTime.ToLongTimeString();
+        string message = $"{greeting}, {navn}! Today is {currentTime.ToLongDateString()} and the time is {currentTime.ToLongTimeString()}";
 
         Console.WriteLine(message);
 
