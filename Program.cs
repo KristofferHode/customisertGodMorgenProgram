@@ -7,13 +7,11 @@ class Program
     static void Main(string[] args)
     {
         DateTime currentTime = DateTime.Now;
-        int time = currentTime.Hour;
-
         string greeting = "";
 
         if (currentTime.Hour > 5 && currentTime.Hour < 12)
         {
-            greeting = "Good Morning!";
+             greeting = "Good Morning!";
         }
         else if (currentTime.Hour > 12 && currentTime.Hour < 15)
         {
@@ -49,7 +47,7 @@ class Program
             if (Halloween < currentTime)
                 Halloween = Halloween.AddYears(1);
             int daysLeft = (Halloween - currentTime.Date).Days;
-            Console.WriteLine($"Its {daysLeft} until the spookiest time of year!");
+            Console.WriteLine($"Its {daysLeft} days left until the spookiest time of year!");
         }
         if (spookTober == "no")
         {
