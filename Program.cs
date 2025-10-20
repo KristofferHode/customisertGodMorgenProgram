@@ -9,7 +9,7 @@ class Program
         DateTime currentTime = DateTime.Now;
         string greeting = "";//initializes greeting to be used outside of 'if/else if' scope
 
-//wont work at the hours between 12:00-13:00, checking into it now 
+
         if (currentTime.Hour >= 5 && currentTime.Hour <= 12)
         {
             greeting = "Good Morning!";
@@ -29,7 +29,6 @@ class Program
         {
             greeting = "Sleepytime!";
         }
-        
 
         Console.WriteLine("Hello, what is your name?");
 
